@@ -1,0 +1,23 @@
+{
+  "name": "visualwebs/module-core",
+  "description": "Visualwebs Core plugin for Magento 2",
+  "type": "magento2-module",
+  "version": "1.1.0",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Visualwebs",
+      "email": "contact@visualwebs.eu",
+      "homepage": "https://visualwebs.eu",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Visualwebs\\Core\\": ""
+    }
+  }
+}
